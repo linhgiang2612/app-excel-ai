@@ -165,7 +165,7 @@ def hien_thi_ly_thuyet():
         st.code("Ví dụ: Dò tìm chức vụ của nhân viên dựa trên mã nhân viên trong bảng dọc.")
         # Chèn ảnh minh họa ví dụ từ tài liệu
         try:
-            st.image("vlookup_VD.png", caption="Hình 3.5: Ví dụ minh họa hàm VLOOKUP tra cứu Chức vụ")
+            st.image("images/vlookup_VD.png", caption="Hình 3.5: Ví dụ minh họa hàm VLOOKUP tra cứu Chức vụ")
         except:
             st.warning("⚠️ Chú ý: Hãy đảm bảo file ảnh đã được tải lên.")
 
@@ -194,7 +194,7 @@ def hien_thi_ly_thuyet():
         st.code("Ví dụ: Dò tìm chức vụ của nhân viên dựa trên mã nhân viên trong bảng ngang.")
         # Chèn ảnh minh họa ví dụ từ tài liệu
         try:
-            st.image("hlookup_VD.png", caption="Hình: Ví dụ minh họa hàm HLOOKUP tra cứu Chức vụ")
+            st.image("images/hlookup_VD.png", caption="Hình: Ví dụ minh họa hàm HLOOKUP tra cứu Chức vụ")
         except:
             st.warning("⚠️ Chú ý: Hãy đảm bảo file ảnh đã được tải lên.")
 
@@ -412,7 +412,7 @@ def hien_thi_thuc_hanh_lookup():
     # 1. Hiển thị đề bài
     st.subheader("Đề bài:")
     try:
-        st.image("HamLookup.png", caption="Yêu cầu: Sử dụng VLOOKUP và HLOOKUP kết hợp hàm LEFT, RIGHT") [cite: 1471, 1472, 1568, 1598]
+        st.image("images/HamLookup.png", caption="Yêu cầu: Sử dụng VLOOKUP và HLOOKUP kết hợp hàm LEFT, RIGHT") [cite: 1471, 1472, 1568, 1598]
     except:
         st.warning("⚠️ Hãy đảm bảo bạn đã tải file ảnh 'HamLookup.png' lên GitHub.")
 
